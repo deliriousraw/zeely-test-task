@@ -57,7 +57,7 @@ export function AdAvatarPreview({
         <Badge
           variant="outline"
           aria-hidden="true"
-          className="absolute top-2 left-1/2 -translate-x-1/2 rounded-[5px] text-[#404040] font-bold text-[10px] bg-white uppercase h-5 z-10"
+          className="absolute top-2 left-2 rounded-[5px] text-[#404040] font-bold text-[10px] bg-white uppercase h-5 z-10"
         >
           Default
         </Badge>

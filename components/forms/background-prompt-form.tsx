@@ -46,6 +46,7 @@ export function BackgroundPromptForm({
         <PromptInputTextarea
           {...register("prompt", { required: true })}
           placeholder="Type your message..."
+          autoFocus
         />
         <PromptInputToolbar>
           <Button
