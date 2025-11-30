@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { GlobalOverlayManager } from "@/components/shared/global-overlay-manager/global-overlay-manager";
 import { ItalianPlate } from "@/fonts";
 import "@/styles/globals.css";
 
@@ -17,6 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${ItalianPlate.className} antialiased`}>
         {children}
+        <GlobalOverlayManager />
       </body>
     </html>
   );
