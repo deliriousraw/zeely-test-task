@@ -50,7 +50,7 @@ export const PromptInputTextarea = ({
     <Textarea
       className={cn(
         "w-full resize-none rounded-none border-none p-3 shadow-none outline-none ring-0",
-        "field-sizing-content max-h-[6lh] bg-transparent dark:bg-transparent",
+        "field-sizing-content max-h-[6lh] bg-transparent dark:bg-transparent break-all",
         "focus-visible:ring-0",
         className
       )}
@@ -104,7 +104,7 @@ export const PromptInputButton = ({
   return (
     <Button
       className={cn(
-        "shrink-0 gap-1.5 rounded-lg",
+        "shrink-0 gap-1.5 rounded-lg cursor-pointer",
         variant === "ghost" && "text-muted-foreground",
         newSize === "default" && "px-3",
         className

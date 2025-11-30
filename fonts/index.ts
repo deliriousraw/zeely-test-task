@@ -104,4 +104,6 @@ export const ItalianPlate = localFont({
     },
   ],
   variable: "--font-italian-plate-sans",
+  adjustFontFallback: false,
+  display: "swap",
 });
